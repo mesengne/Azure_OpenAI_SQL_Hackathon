@@ -1,8 +1,5 @@
 
 -- :setvar dbCount 3
--- :setvar storageName "sqlhacksa5ye3xwhzcqzjq"
--- :setvar containerUri "https://sqlhacksa5ye3xwhzcqzjq.blob.core.windows.net/migration"
--- :setvar containerSasKey "siUP3XulnF9kgFyIb7LsrAe2n8MCxcMLp+3pGbfjEmlhDkrzwJ/9xdhmaDZpjwjPb4tam1fcYe6T+AStoQhe4Q=="
 
 
 DECLARE @Command nvarchar(max)
