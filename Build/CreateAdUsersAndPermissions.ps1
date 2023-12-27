@@ -24,7 +24,7 @@ $groupid=$group.Id
 foreach ($i in $count)
 {
     $i_string = $i | % tostring 00
-    $password="&sqloaihack@demo_"+$i_string+"!"
+     
     $securepassword= ConvertTo-SecureString $password -AsPlainText -force
     $upn=$username+$i_string +"@"+$domain
     $member=New-AzADUser -DisplayName $username$i_string  -Password $securepassword  -AccountEnabled $true -MailNickname $username$i_string  -UserPrincipalName $upn
@@ -33,14 +33,14 @@ foreach ($i in $count)
     }
 # Create SQL MI Admin
     $username ="sqlmiadmin"
-    $password = "Foso2272#OH2903"
+    
     $securepassword= ConvertTo-SecureString $password -AsPlainText -force
     $upn=$username+"@"+$domain
     $member=New-AzADUser -DisplayName $username$i_string  -Password $securepassword  -AccountEnabled $true -MailNickname $username$i_string  -UserPrincipalName $upn
 
 
     $username ="adminuser"
-    $password = "#SQLm2cAdmin@oh!!"
+    
     $securepassword= ConvertTo-SecureString $password -AsPlainText -force
     $upn=$username+"@"+$domain
     $member=New-AzADUser -DisplayName $username$i_string  -Password $securepassword  -AccountEnabled $true -MailNickname $username$i_string  -UserPrincipalName $upn
