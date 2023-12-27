@@ -1,0 +1,5 @@
+2 Files cannot currently be pushed to Azure DevOps Repos in this folder:
+
+2-Create Backup.sql -> This is with credentials. Not allowed, this should be changed.
+LocalMasterDataDB.bak -> unable to commit from VSCode- reason unknown. 
+If tried to do it on webUI it is too large (20MB limit)
