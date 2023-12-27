@@ -26,7 +26,7 @@ Select-AzSubscription -Tenant '<Tenant ID>' -SubscriptionId '<Subscription ID>'
 #Select-AzSubscription -Tenant '16b3c013-d300-468d-ac64-7eda0820b6d3' -SubscriptionId 'baf1b7c8-f1c5-4003-b4f8-db188226b0dd'
 
 Write-Host -BackgroundColor Black -ForegroundColor Yellow "#################################################################################"
-Write-Host -BackgroundColor Black -ForegroundColor Yellow "TEST FOR  SQL OPEN AI  Hack - Build Script"
+Write-Host -BackgroundColor Black -ForegroundColor Yellow "SQL OPEN AI  Hack - Build Script"
 Write-Host -BackgroundColor Black -ForegroundColor Yellow "This script will build the full  enviroment" 
 Write-Host -BackgroundColor Black -ForegroundColor Yellow "#################################################################################"
 $CurrentDir = Split-Path $script:MyInvocation.MyCommand.Path
